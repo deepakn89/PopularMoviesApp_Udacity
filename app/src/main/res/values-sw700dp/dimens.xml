@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headline">32sp</dimen>
+    <dimen name="title">26sp</dimen>
+    <dimen name="subtitle">22sp</dimen>
+    <dimen name="body1">22sp</dimen>
+    <dimen name="body2">20sp</dimen>
+    <dimen name="button_text">20sp</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PopularMoviesApp_latest</string>
+    <string name="movies_logo">Movies</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">TopRated</string>
+    <string name="fav_movies">Favourite</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="youtubeIcon">Youtube Icon</string>
+    <string name="favourite">Favourite</string>
+    <string name="connection_timeout">Please check your network connection</string>
+    <string name="rating">"Rating : "</string>
+    <string name="release_date">"ReleaseDate : "</string>
+</resources>

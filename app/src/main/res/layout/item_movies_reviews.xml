@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="review"
+            type="com.example.popularmoviesapp_latest.data.Reviews" />
+    </data>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingEnd="8dp"
+    android:paddingStart="0dp">
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="start"
+        android:maxLines="2"
+        android:text="@{review.author}"
+        android:textColor="@color/materialBlack"
+        android:textStyle="bold"
+        android:textSize="@dimen/subtitle"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="start"
+        android:text="@{review.content}"
+        android:textColor="@color/materialBlack"
+        android:textSize="@dimen/body2"/>
+</LinearLayout>
+</layout>
